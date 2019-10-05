@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+.carousel-item img {
+    max-height:375px;
+    object-fit:cover;
+}
+.needs-validation {
+    margin-top:50px;
+}
+.outer {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.Header {
+    text-align:center;
+    font-size:40px;
+    border-bottom: 2px solid #343A40;
+}
+.footer {
+    color: #ffffff;
+    width:100%;
+    height:125px;
+    background-color: #343A40;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.flex-center{
+    display:flex;
+    justify-content:center;
+}
+
+.footer-copyright {
+    background-color:#343A40;
+    color: #ffffff;
+    margin:0;
+}

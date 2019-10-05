@@ -1,0 +1,67 @@
+[id='toggle-heart'] {
+    position: absolute;
+    left: -100vw;
+}
+[for='toggle-heart'] {
+    color: #aab8c2;
+    font-size: 2em;
+    cursor: pointer;
+    align-self: center;
+}
+
+[id='toggle-heart']:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+}
+@keyframes heart {
+    0%, 17.5% { font-size: 0; }
+}
+[id='toggle-heart2'] {
+    position: absolute;
+    left: -100vw;
+}
+[for='toggle-heart2'] {
+    color: #aab8c2;
+    font-size: 2em;
+    cursor: pointer;
+    align-self: center;
+}
+
+[id='toggle-heart2']:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+}
+[id='toggle-heart3'] {
+    position: absolute;
+    left: -100vw;
+}
+[for='toggle-heart3'] {
+    color: #aab8c2;
+    font-size: 2em;
+    cursor: pointer;
+    align-self: center;
+}
+
+[id='toggle-heart3']:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+}
+[id='toggle-heart4'] {
+    position: absolute;
+    left: -100vw;
+}
+[for='toggle-heart4'] {
+    color: #aab8c2;
+    font-size: 2em;
+    cursor: pointer;
+    align-self: center;
+}
+
+[id='toggle-heart4']:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+}
